@@ -1,0 +1,12 @@
+Archives/
+AM/
+EIA/
+Fizica/
+
+*.exe
+*.o
+*.log
+*.pyc
+__pycache__/
+.vscode/
+.idea/
