@@ -3,6 +3,7 @@ AM/
 EIA/
 Fizica/
 
+*txt
 *.exe
 *.o
 *.log
