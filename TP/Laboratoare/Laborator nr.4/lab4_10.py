@@ -2,7 +2,7 @@
 # November 2025
 # Juncu Marin, gr. MN-251
 # Laborator nr.4. Fișiere, prelucrarea fișierelor
-# Sarcina nr.10
+# Sarcina nr.10: Verifică dacă fișierul conține doar caractere alfanumerice și spații. Dacă da, îl convertește în majuscule.
  
 import os
 

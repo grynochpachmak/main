@@ -2,7 +2,7 @@
 # November 2025
 # Juncu Marin, gr. MN-251
 # Laborator nr.4. Fișiere, prelucrarea fișierelor
-# Sarcina nr.14
+# Sarcina nr.14: Numără caracterele numerice și extrage toate numerele din fișier dacă acesta conține peste 30 de cifre.
  
 import os
 

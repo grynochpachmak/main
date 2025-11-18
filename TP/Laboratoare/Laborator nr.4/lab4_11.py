@@ -2,7 +2,7 @@
 # November 2025
 # Juncu Marin, gr. MN-251
 # Laborator nr.4. Fișiere, prelucrarea fișierelor
-# Sarcina nr.11
+# Sarcina nr.11: Numără cuvintele din fișier și creează un rezumat dacă acesta conține exact 100 de cuvinte.
  
 import os
 

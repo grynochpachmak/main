@@ -2,7 +2,7 @@
 # November 2025
 # Juncu Marin, gr. MN-251
 # Laborator nr.4. Fișiere, prelucrarea fișierelor
-# Sarcina nr.2
+# Sarcina nr.2: Verifică dimensiunea fișierului hello.txt și îl copiază în copy.txt dacă are sub 1024 bytes.
  
 import os
 

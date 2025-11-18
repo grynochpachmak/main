@@ -2,7 +2,7 @@
 # November 2025
 # Juncu Marin, gr. MN-251
 # Laborator nr.4. Fișiere, prelucrarea fișierelor
-# Sarcina nr.12
+# Sarcina nr.12: Verifică numărul de linii și adaugă linii noi până când fișierul ajunge la cel puțin 20 de linii.
  
 import os
 

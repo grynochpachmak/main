@@ -2,7 +2,7 @@
 # November 2025
 # Juncu Marin, gr. MN-251
 # Laborator nr.4. Fișiere, prelucrarea fișierelor
-# Sarcina nr.9
+# Sarcina nr.9: Verifică dacă fișierul hello.txt este vid și îl șterge dacă dimensiunea este 0 bytes.
  
 import os
 

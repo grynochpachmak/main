@@ -2,7 +2,7 @@
 # November 2025
 # Juncu Marin, gr. MN-251
 # Laborator nr.4. Fișiere, prelucrarea fișierelor
-# Sarcina nr.15
+# Sarcina nr.15: Dacă fișierul este .txt și are cel puțin o linie, găsește linia cu cele mai multe caractere și o salvează în linia_max.txt.
  
 import os
 

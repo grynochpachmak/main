@@ -2,7 +2,7 @@
 # November 2025
 # Juncu Marin, gr. MN-251
 # Laborator nr.4. Fișiere, prelucrarea fișierelor
-# Sarcina nr.6
+# Sarcina nr.6: Dacă fișierul hello.txt are peste 50 de linii, creează un rezumat cu primele 5 linii.
  
 import os
 

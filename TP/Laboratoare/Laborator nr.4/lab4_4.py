@@ -2,7 +2,7 @@
 # November 2025
 # Juncu Marin, gr. MN-251
 # Laborator nr.4. Fișiere, prelucrarea fișierelor
-# Sarcina nr.4
+# Sarcina nr.4: Verifică extensia fișierului hello.txt și îl redenumește în file.txt dacă este .txt.
  
 import os
 

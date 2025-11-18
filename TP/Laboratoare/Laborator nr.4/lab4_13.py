@@ -2,7 +2,7 @@
 # November 2025
 # Juncu Marin, gr. MN-251
 # Laborator nr.4. Fișiere, prelucrarea fișierelor
-# Sarcina nr.13
+# Sarcina nr.13: Verifică dacă fișierul conține caractere de punctuație și le elimină în fișierul fara_punctuatie.txt.
  
 import os
 import string

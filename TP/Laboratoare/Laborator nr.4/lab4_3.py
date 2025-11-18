@@ -2,7 +2,7 @@
 # November 2025
 # Juncu Marin, gr. MN-251
 # Laborator nr.4. Fișiere, prelucrarea fișierelor
-# Sarcina nr.3
+# Sarcina nr.3: Citește fișierul hello.txt și înlocuiește cuvântul "World" cu "People", salvând rezultatul în people.txt.
  
 import os
 

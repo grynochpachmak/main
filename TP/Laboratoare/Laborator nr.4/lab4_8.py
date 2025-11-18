@@ -2,7 +2,7 @@
 # November 2025
 # Juncu Marin, gr. MN-251
 # Laborator nr.4. Fișiere, prelucrarea fișierelor
-# Sarcina nr.8
+# Sarcina nr.8: Verifică dacă fișierul hello.txt are permisiune de citire și îi afișează conținutul.
  
 import os
 

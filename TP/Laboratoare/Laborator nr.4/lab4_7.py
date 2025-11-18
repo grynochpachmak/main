@@ -2,7 +2,7 @@
 # November 2025
 # Juncu Marin, gr. MN-251
 # Laborator nr.4. Fișiere, prelucrarea fișierelor
-# Sarcina nr.7
+# Sarcina nr.7: Verifică dacă un anumit caracter apare în fișier și afișează numărul aparițiilor.
  
 import os
 
