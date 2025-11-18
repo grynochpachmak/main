@@ -1,3 +1,9 @@
+# lab4_10.py
+# November 2025
+# Juncu Marin, gr. MN-251
+# Laborator nr.4. Fișiere, prelucrarea fișierelor
+# Sarcina nr.10
+ 
 import os
 
 filename = "hello.txt"

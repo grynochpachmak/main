@@ -1,3 +1,9 @@
+# lab4_11.py
+# November 2025
+# Juncu Marin, gr. MN-251
+# Laborator nr.4. Fișiere, prelucrarea fișierelor
+# Sarcina nr.11
+ 
 import os
 
 filename = "hello.txt"
@@ -6,15 +12,15 @@ if os.path.exists(filename):
     with open(filename, "r") as f:
         content = f.read()
 
-    cuvinte = content.split()
-    nr_cuvinte = len(cuvinte)
+    words = content.split()
+    wordsnum = len(words)
 
-    print(f"Fișierul conține {nr_cuvinte} cuvinte.")
+    print(f"Fișierul conține {wordsnum} cuvinte.")
 
-    if nr_cuvinte == 100:
+    if wordsnum == 100:
         print("Fișierul are EXACT 100 de cuvinte. Se creează rezumatul...")
 
-        rezumat = " ".join(cuvinte[:10])
+        rezumat = " ".join(words[:10])
 
         with open("rezumat.txt", "w") as out:
             out.write(rezumat)

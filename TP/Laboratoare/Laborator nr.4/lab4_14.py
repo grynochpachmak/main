@@ -1,20 +1,26 @@
+# lab4_14.py
+# November 2025
+# Juncu Marin, gr. MN-251
+# Laborator nr.4. Fișiere, prelucrarea fișierelor
+# Sarcina nr.14
+ 
 import os
 
-nume_fisier = "hello.txt"
+filename = "hello.txt"
 
-if os.path.exists(nume_fisier):
+if os.path.exists(filename):
 
-    with open(nume_fisier, "r") as f:
+    with open(filename, "r") as f:
         content = f.read()
 
-    nr_cifre = sum(1 for c in content if c.isdigit())
+    digitnum = sum(1 for c in content if c.isdigit())
 
-    print(f"Fișierul conține {nr_cifre} caractere numerice.")
+    print(f"Fișierul conține {digitnum} caractere numerice.")
 
-    if nr_cifre > 30:
+    if digitnum > 30:
         print("Fișierul are peste 30 de cifre. Se extrag numerele...")
 
-        numere = []
+        nums = []
         buffer = ""
 
         for c in content:
@@ -22,13 +28,13 @@ if os.path.exists(nume_fisier):
                 buffer += c
             else:
                 if buffer:
-                    numere.append(buffer)
+                    nums.append(buffer)
                     buffer = ""
         if buffer:
-            numere.append(buffer)
+            nums.append(buffer)
 
         with open("numere_extrase.txt", "w") as out:
-            for n in numere:
+            for n in nums:
                 out.write(n + "\n")
 
         print('Toate numerele au fost extrase în "numere_extrase.txt".')

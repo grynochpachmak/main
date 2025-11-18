@@ -1,16 +1,22 @@
+# lab4_7.py
+# November 2025
+# Juncu Marin, gr. MN-251
+# Laborator nr.4. Fișiere, prelucrarea fișierelor
+# Sarcina nr.7
+ 
 import os
 
 filename = "hello.txt"
-caracter = "a"
+char = "a"
 
 if os.path.exists(filename):
     with open(filename, "r") as f:
         content = f.read()
 
-    if caracter in content:
-        aparitii = content.count(caracter)
-        print(f'Caracterul "{caracter}" apare de {aparitii} ori în fișier.')
+    if char in content:
+        freq = content.count(char)
+        print(f'Caracterul "{char}" apare de {freq} ori în fișier.')
     else:
-        print(f'Caracterul "{caracter}" NU se găsește în fișier.')
+        print(f'Caracterul "{char}" NU se găsește în fișier.')
 else:
     print("Fișierul nu există!")

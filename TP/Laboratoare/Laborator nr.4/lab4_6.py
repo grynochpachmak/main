@@ -1,16 +1,22 @@
+# lab4_6.py
+# November 2025
+# Juncu Marin, gr. MN-251
+# Laborator nr.4. Fișiere, prelucrarea fișierelor
+# Sarcina nr.6
+ 
 import os
 
 filename = "hello.txt"
 
 if os.path.exists(filename):
     with open(filename, "r") as f:
-        linii = f.readlines()
+        lines = f.readlines()
 
-    if len(linii) > 50:
-        rezumat = linii[:5]
+    if len(lines) > 50:
+        rezum = lines[:5]
 
         with open("rezumat.txt", "w") as out:
-            out.writelines(rezumat)
+            out.writelines(rezum)
 
         print("Fișierul are peste 50 de linii. Rezumatul a fost creat!")
     else:

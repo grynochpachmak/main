@@ -1,19 +1,25 @@
+# lab4_12.py
+# November 2025
+# Juncu Marin, gr. MN-251
+# Laborator nr.4. Fișiere, prelucrarea fișierelor
+# Sarcina nr.12
+ 
 import os
 
 filename = "hello.txt"
-numar_minim = 20
+minnum = 20
 
 if os.path.exists(filename):
     with open(filename, "r") as f:
         linii = f.readlines()
 
-    nr_linii = len(linii)
-    print(f"Fișierul are {nr_linii} linii.")
+    linesnum = len(linii)
+    print(f"Fișierul are {linesnum} linii.")
 
-    if nr_linii < numar_minim:
-        print(f"Fișierul are mai puțin de {numar_minim} linii. Se adaugă linii...")
+    if linesnum < minnum:
+        print(f"Fișierul are mai puțin de {minnum} linii. Se adaugă linii...")
 
-        lipsa = numar_minim - nr_linii
+        lipsa = minnum - linesnum
 
         with open(filename, "a") as f:
             for i in range(lipsa):

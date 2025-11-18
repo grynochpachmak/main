@@ -1,22 +1,28 @@
+# lab4_15.py
+# November 2025
+# Juncu Marin, gr. MN-251
+# Laborator nr.4. Fișiere, prelucrarea fișierelor
+# Sarcina nr.15
+ 
 import os
 
-nume_fisier = "hello.txt"
+filename = "hello.txt"
 
-if os.path.exists(nume_fisier):
+if os.path.exists(filename):
 
-    if nume_fisier.endswith(".txt"):
+    if filename.endswith(".txt"):
 
-        with open(nume_fisier, "r") as f:
-            linii = f.readlines()
+        with open(filename, "r") as f:
+            lines = f.readlines()
 
-        if len(linii) > 0:
+        if len(lines) > 0:
             print("Fișierul este .txt și conține cel puțin o linie.")
             print("Se caută linia cu cele mai multe caractere...")
 
-            linia_max = max(linii, key=len)
+            maxline = max(lines, key=len)
 
             with open("linia_max.txt", "w") as out:
-                out.write(linia_max)
+                out.write(maxline)
 
             print('Linia cu cele mai multe caractere a fost salvată în "linia_max.txt".')
         else:

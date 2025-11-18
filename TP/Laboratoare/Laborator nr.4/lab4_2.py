@@ -1,3 +1,9 @@
+# lab4_2.py
+# November 2025
+# Juncu Marin, gr. MN-251
+# Laborator nr.4. Fișiere, prelucrarea fișierelor
+# Sarcina nr.2
+ 
 import os
 
 if os.path.exists("hello.txt"):
