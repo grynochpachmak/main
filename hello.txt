@@ -1,3 +1,0 @@
-Scurta.
-Aceasta este cea mai lunga linie din fisierul nostru de test pentru lab4_15, contine foarte multe caractere pentru a fi aleasa ca linia maxima.
-Alta linie scurta.
