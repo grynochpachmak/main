@@ -1,0 +1,56 @@
+{
+  "ds": ["smartphone", "display"],
+  "smdis": ["smartphone", "display"],
+  "smlcd": ["smartphone", "display"],
+  "smtouch": ["smartphone", "display"],
+  "bs": ["smartphone", "battery"],
+  "smbat": ["smartphone", "battery"],
+  "cs": ["smartphone", "cover"],
+
+  "di": ["iphone", "display"],
+  "ipdis": ["iphone", "display"],
+  "iplcd": ["iphone", "display"],
+  "bi": ["iphone", "battery"],
+  "ipbat": ["iphone", "battery"],
+  "ci": ["iphone", "cover"],
+
+  "tds": ["tablet", "display"],
+  "tblcd": ["tablet", "display"],
+  "tbat": ["tablet", "battery"],
+  "tcov": ["tablet", "cover"],
+
+  "dl": ["laptop", "display"],
+  "dlt": ["laptop", "display_touch"],
+  "lapdis": ["laptop", "display"],
+  "laptouch": ["laptop", "display_touch"],
+
+  "bl": ["laptop", "battery"],
+  "lapbat": ["laptop", "battery"],
+
+  "kl": ["laptop", "keyboard"],
+  "lapkey": ["laptop", "keyboard"],
+
+  "fl": ["laptop", "fan_office"],
+  "flg": ["laptop", "fan_gaming"],
+  "fll": ["laptop", "fan_liquid"],
+  "lapfan": ["laptop", "fan_office"],
+  "lapfan_g": ["laptop", "fan_gaming"],
+  "lapfan_l": ["laptop", "fan_liquid"],
+
+  "cl": ["laptop", "case"],
+  "lapcase": ["laptop", "case"],
+
+  "pdl": ["pc", "display"],
+  "pdlt": ["pc", "display_touch"],
+  "pbat": ["pc", "battery"],
+  "pkey": ["pc", "keyboard"],
+  "pfan": ["pc", "fan_office"],
+  "pfan_g": ["pc", "fan_gaming"],
+  "pfan_l": ["pc", "fan_liquid"],
+  "pcase": ["pc", "case"],
+
+  "e": ["extern", "extern"],
+  "ext": ["extern", "extern"],
+  "g": ["general", "general"],
+  "gen": ["general", "general"]
+}
