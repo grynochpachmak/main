@@ -1,6 +1,6 @@
 // October 2025
 // Juncu Marin MN-251
-// Laborator nr.3: Prelucrarea tablourilor unidimensionale si bidimensionale în limbajul C
+// Laborator nr.4: Prelucrarea tablourilor unidimensionale si bidimensionale în limbajul C
 // Tablouri unidimensionale
 // Sarcina nr.9: Scrieți un program C pentru a insera un element într-un tablou pe o poziție dată de la tastatură.
 

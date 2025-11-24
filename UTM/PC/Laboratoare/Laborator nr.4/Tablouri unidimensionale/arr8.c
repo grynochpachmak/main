@@ -1,6 +1,6 @@
 // October 2025
 // Juncu Marin MN-251
-// Laborator nr.3: Prelucrarea tablourilor unidimensionale si bidimensionale în limbajul C
+// Laborator nr.4: Prelucrarea tablourilor unidimensionale si bidimensionale în limbajul C
 // Tablouri unidimensionale
 // Sarcina nr.8: Scrieți un program C pentru a copia toate elementele dintr-un tablou în alt tablou.
 

@@ -1,6 +1,6 @@
 // November 2025
 // Juncu Marin MN-251
-// Laborator nr.3: Prelucrarea tablourilor unidimensionale si bidimensionale în limbajul C
+// Laborator nr.4: Prelucrarea tablourilor unidimensionale si bidimensionale în limbajul C
 // Tablouri bidimensionale
 // Sarcina nr.6: Scrieti un program C pentru a gasi suma elementelor diagonalei principale ale unei matrici.
 

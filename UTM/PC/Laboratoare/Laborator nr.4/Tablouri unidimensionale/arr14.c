@@ -1,6 +1,6 @@
 // October 2025
 // Juncu Marin MN-251
-// Laborator nr.3: Prelucrarea tablourilor unidimensionale si bidimensionale în limbajul C
+// Laborator nr.4: Prelucrarea tablourilor unidimensionale si bidimensionale în limbajul C
 // Tablouri unidimensionale
 // Sarcina nr.14: Scrieți un program C pentru a șterge toate elementele duplicate dintr-un tablou.
 
