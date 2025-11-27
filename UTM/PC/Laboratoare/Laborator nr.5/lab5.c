@@ -4,14 +4,8 @@
 
 #include <stdio.h>
 #include <string.h>
-
-#ifdef _WIN32
-    #include <windows.h>
-    #define delay(ms) Sleep(ms)
-#else
-    #include <unistd.h>
-    #define delay(ms) usleep((ms) * 1000)
-#endif
+#include <windows.h>
+#define delay(ms) Sleep(ms)
 
 void initMenu() {
     delay(1000);
