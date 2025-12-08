@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
 # November 2025
 # Juncu Marin, gr. MN-251
 # Laborator nr.6: Module proprii și fișiere text
-# Fișier: util_marin.py
 
 def isPrime(n):
     if n < 2:
