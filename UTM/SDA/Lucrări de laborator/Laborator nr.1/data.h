@@ -1,8 +1,7 @@
 #ifndef DATA_H
 #define DATA_H
-
 #include <string>
-using std::string;
+using namespace std;
 
 struct rutaAeriana {
     string codZbor;
