@@ -25,6 +25,6 @@ void inserareCoadaElement(rutaAeriana*& tab, int& n);
 void stergere(rutaAeriana*& tab, int& n);
 void salvare(rutaAeriana* tab, int n);
 void citire(rutaAeriana*& tab, int& n);
-void eliberare(rutaAeriana*& tab);
+void eliberare(rutaAeriana*& tab, int& n);
 
 #endif

@@ -1,13 +1,12 @@
-#include "data.h"
 #include <iostream>
 #include <fstream>
-#include <string>
+#include "data.h"
+
 using namespace std;
 
 void alocare(rutaAeriana*& tab, int& n) {
     cout << "Introduceti numarul de rute: ";
     cin >> n;
-
     tab = new rutaAeriana[n];
 }
 
